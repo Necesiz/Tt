@@ -7,7 +7,7 @@ class Config():
     admins = {}
     API_ID = int(os.environ.get("API_ID","15954332"))
     API_HASH = os.environ.get("API_HASH","85adea6f1eaf068b707703b4846a9ced")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6220871532:AAEeZBDvusB_TZRBwF9FeXNuWVQjKueNjjY")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6220871532:AAG4xc2twUo4BysQ3wGQjQ6VEurwIq1Ep-s")
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "PersonalAssistanttBot")
     BOT_NAME = os.environ.get("BOT_NAME", "PERSONAL ASSISTANT")
     BOT_ID = int(os.environ.get("BOT_ID", "5964973513"))
