@@ -84,10 +84,10 @@ async def get_id(client, message):
             await message.reply("ID-ni əldə edərkən xəta baş verdi.")
 
 
-
+client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 # ---------------------  TELETHON TEAMABASOF#
 
-@abasov.on(events.NewMessage(incoming=True, from_users=SUDO_USERS, pattern="^[./!]depo ?(.*)|^[./!]yolla ?(.*)"))
+@client.on(events.NewMessage(incoming=True, from_users=SUDO_USERS, pattern="^[./!]depo ?(.*)|^[./!]yolla ?(.*)"))
 async def kopya(event):
     await event.delete()
     mesaj = await event.get_reply_message()
@@ -95,7 +95,7 @@ async def kopya(event):
         await event.reply("Bir şeyə yanıt verdə 🤦‍♂️")
         return
     await mesaj.reply("⚡️ **Bu mesajı log qrupuna atdım**")
-    await event.abasov.send_message(LOG_QRUP, mesaj)
+    await event.client.send_message(LOG_QRUP, mesaj)
 
 
 
@@ -105,7 +105,6 @@ async def kopya(event):
 
 
 
-abasov = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 
 
 
@@ -118,4 +117,4 @@ abasov = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 
 print(">> Bot işləyir narahat olmayın. @edalet_22 Məlumat almaq üçün <<")
 rehim.start()
-abasov.run_until_disconnected()
+client.run_until_disconnected()
