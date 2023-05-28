@@ -16,16 +16,16 @@
       "value": "85adea6f1eaf068b707703b4846a9ced"
     },
     "BOT_NAME": {
-      "description": "OLD TAGGER",
-      "value": "OLD TAGGER"
+      "description": "PERSONAL ASSISTANT",
+      "value": "PERSONAL ASSISTANT"
     },
     "BOT_USERNAME": {
       "description": "oldtaggerBot",
-      "value": "oldtaggerBot"
+      "value": "PersonalAssistanttBot"
     },
     "BOT_ID": {
       "description": "Botun ID-si yazın",
-      "value": "5740066159"
+      "value": "6220871532"
     },
     "SUDO_USERS": {
       "description": "Öz ID-ni yazın",
@@ -41,7 +41,7 @@
     },
     "OWNER_USERNAME": {
       "description": "Öz tag adını @ olmadan yazın",
-      "value": "AnonyumAz"
+      "value": "Erebliqaqas"
     }
   },
   "buildpacks": [{
