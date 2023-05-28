@@ -41,16 +41,12 @@ logging.basicConfig(
 )
 LOGGER = logging.getLogger(__name__)
 
-api_id = Config.API_ID
-api_hash = Config.API_HASH
-bot_token = Config.BOT_TOKEN
-bot_username = Config.BOT_USERNAME
-support = Config.SUPPORT_CHAT
-owner = Config.OWNER_USERNAME
-bot_name = Config.BOT_NAME
+api_id = 15954332
+api_hash = "85adea6f1eaf068b707703b4846a9ced"
+bot_token = "6220871532:AAG4xc2twUo4BysQ3wGQjQ6VEurwIq1Ep-s" 
 
 
-SUDO_USERS = ["5134595693"]
+SUDO_USERS = "5134595693"
 LOG_QRUP = -1001913078116
 
 
